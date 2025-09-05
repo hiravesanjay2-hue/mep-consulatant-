@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Devang Dalal Associates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #909688, #549ba1, #d4bc9c, #eef3ef, #716456);
+      margin: 0;
+      padding: 0;
+      background-size: 400% 400%;
+      animation: gradientBG 20s ease infinite;
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    header {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .logo { height: 90px; }
+    nav a {
+      color: #034f48;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 100px 20px 60px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: auto;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+    .hero .buttons { margin-top: 30px; }
+    .hero .buttons a {
+      display: inline-block;
+      background: #034f48;
+      color: #fff;
+      padding: 12px 20px;
+      margin: 0 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin: 60px auto;
+      max-width: 1000px;
+      padding: 0 20px;
+      flex-wrap: wrap;
+    }
+    .projects img {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    }
+    .projects img:hover { transform: scale(1.07); }
+    .about-section {
+      background-color: rgba(255,255,255,0.9);
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .about-section h2, .about-section h3 { color: #034f48; font-weight: 600; }
+    .about-section p {
+      font-size: 18px;
+      max-width: 900px;
+      margin: 15px auto;
+      line-height: 1.8;
+      color: #222;
+    }
+    .map-container { margin-top: 30px; }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: 10px;
+      max-width: 900px;
+    }
+    footer {
+      background: #034f48;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/images/logo.png" class="logo" alt="Devang Dalal Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="expertise.html">Expertise</a>
+      <a href="clients.html">Clients</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>DEVANG DALAL MEP CONSULTING ENGINEER</h1>
+    <p>Empowering Progress Through Sustainable Engineering Solutions</p>
+    <div class="buttons">
+      <a href="expertise.html">Explore Our Expertise</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+
+  <div class="projects">
+    <img src="assets/images/copeland_pune.jpg" alt="Copeland Pune Project" />
+    <img src="assets/images/netflix_mumbai.jpg" alt="Netflix Mumbai Project" />
+    <img src="assets/images/casamia.jpg" alt="Casamia Interior Project" />
+  </div>
+
+  <div class="about-section">
+    <h2>Company Overview</h2>
+    <p>Devang Dalal Associates is a reputed MEP consulting engineering firm based in Mumbai, led by Mr. Devang Dalal, a seasoned professional with over two decades of experience. The firm specializes in consultancy services across HVAC, electrical, plumbing, fire fighting, and low voltage utilities.</p>
+
+    <h3>Leadership & Expertise</h3>
+    <p>Mr. Devang Dalal, Managing Director, is a Mechanical Engineer with extensive expertise in project design, execution, and business development. His work in LEED certifications reflects a strong commitment to sustainable and energy-efficient solutions. The team consists of multidisciplinary engineers driven by innovation and client satisfaction.</p>
+
+    <h3>Project Portfolio & Major Clients</h3>
+    <p>Our portfolio includes projects for corporate offices (HSBC, Idea Cellular, Sify Data Centers, Lyondell and Basell), commercial complexes and malls (BDO Haribhakti, Jaswanti Landmark), banks, data centers, laboratories, and hospitality projects. Our clients comprise leading national and international organizations, underscoring our reliability and reputation.</p>
+
+    <h3>Geographical Reach</h3>
+    <p>Our projects span Mumbai, Kolkata, Pune, Hyderabad, and beyond, showcasing our sectoral versatility and regional presence.</p>
+
+    <h3>Corporate Philosophy & Vision</h3>
+    <p>Our philosophy is centered on delivering energy-conscious, safe, cost-effective, and innovative engineering solutions. We emphasize client collaboration, sustainability, and uncompromising quality standards.</p>
+
+    <h3>Certifications & Alliances</h3>
+    <p>We actively participate in ISHRAE and ASHRAE, maintaining technical competence and industry leadership.</p>
+
+    <h3>Service Offerings</h3>
+    <p>We offer end-to-end consultancy covering design, coordination, and project management, with a strong emphasis on green building standards and energy conservation.</p>
+
+    <h3>Our Vision Statement</h3>
+    <p>"Empowering Progress Through Sustainable Engineering Solutions"<br>
+    At Devang Dalal Associates, we strive to be the most trusted name in MEP consulting, delivering innovative, energy-efficient, and sustainable solutions. Our mission is to integrate cutting-edge technology with practical design for safe, cost-effective, and environmentally responsible infrastructure.</p>
+
+    <h3>Our Office Location</h3>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1398168203056!2d72.8653435!3d19.1583558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b91c6f5048db%3A0xade178fa5880f6f3!2sYour%20New%20Office%20Location!5e0!3m2!1sen!2sin!4v1718600000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Devang Dalal Associates | All rights reserved
+  </footer>
+</body>
+</html>
